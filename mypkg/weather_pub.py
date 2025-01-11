@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2025 Kazuki Makino
+# SPDX-License-Identifier:BSD-3-Clause
+
 import requests
 from datetime import datetime
 import rclpy

@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2025 Kazuki Makino <s23c1131km@s.chibakoudai.jp>
+# SPDX-FileCopyrightText: 2025 Kazuki Makino
 # SPDX-License-Identifier:BSD-3-Clause
 
 import launch
