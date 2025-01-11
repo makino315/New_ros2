@@ -25,7 +25,7 @@ def main():
     rclpy.spin(node)
 
 def get_weather():
-    url=f"https://weather.tsukumijima.net/api/forecast?city=130010"
+    url="https://weather.tsukumijima.net/api/forecast?city=130010"
     response=requests.get(url)
     response.raise_for_status()
 
