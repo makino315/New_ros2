@@ -1,5 +1,7 @@
 # 東京都の明日の天気を取得
 
+[![test](https://github.com/makino315/New_ros2/actions/workflows/test.yml/badge.svg)](https://github.com/makino315/New_ros2/actions/workflows/test.yml)
+
 ## mypkg
 - このリポジトリはROS2のパッケージで授業で作成した。
 
