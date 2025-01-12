@@ -3,22 +3,22 @@
 [![test](https://github.com/makino315/New_ros2/actions/workflows/test.yml/badge.svg)](https://github.com/makino315/New_ros2/actions/workflows/test.yml)
 
 ## mypkg
-- このリポジトリはROS2のパッケージで授業で作成した。
+- このリポジトリはROS2のパッケージで授業で作成しました。
 
 ## ノードの説明
-- このパッケージは明日の東京の天気をパブリッシュする'weather_pub'というノードで構成されている。
-- topicの名前は'weather'である。
+- このパッケージは明日の東京の天気をパブリッシュする'weather_pub'というノードで構成されています。
+- topicの名前は'weather'です。
 
 ## 使い方
-以下のコマンドで実行する。
+以下のコマンドで実行します。
 ```bash
 ros2 run mypkg weather_pub
 ```
-実行しても何も表示されなく、もう一つの端末で次のコマンドを入力し実行する。
+実行しても何も表示されなく、もう一つの端末で次のコマンドを入力し、実行します。
  ```bash
  ros2 topic echo /weather
  ```
- 出力すると以下のような結果になる。
+ 出力すると以下のような結果になります。
  ```bash
  data: '2025年01月11日の東京都 東京 の天気は晴時々曇です。
 
@@ -52,8 +52,8 @@ data: '2025年01月11日の東京都 東京 の天気は晴時々曇です。
 
 ## 開発環境
 - os: ubuntu20.04 LTS
-- **ROS2 version: Foxy
+- ROS2 version: Foxy
 
 ## 著作権とライセンス
-- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されている。
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されています。
 - © 2025 Kazuki Makino
