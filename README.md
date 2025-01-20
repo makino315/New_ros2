@@ -47,6 +47,8 @@ data: '2025年01月11日の東京都 東京 の天気は晴時々曇です。
 - listener.py
 - talk_listen.launch.py
 
+#動作環境
+
 ## テスト環境(GitHub Actions)
 - ROS2 version：humble
 - OS：Ubuntu 22.04 LTS
